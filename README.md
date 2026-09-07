@@ -10,6 +10,8 @@ Open, inspectable AI workflows for golfers, published by [Artificial Handicap](h
 - calculate individual, front-nine, back-nine, and 18-hole totals;
 - calculate gross team best ball hole by hole;
 - label birdies, eagles, bogeys, and worse from the written score and hole par;
+- interpret TheGrint's `F`, `S`, `D`, and `O` shorthand without confusing bunker accounting for penalty strokes;
+- extract visible putts, fairways, greens, scoring outcomes, bunker visits, three-putts, and penalty indicators;
 - separate arithmetic errors from ambiguous scorecard annotations.
 
 ### Install
@@ -31,6 +33,8 @@ Attach a scorecard image or paste the scores, then ask naturally:
 - “Calculate our gross three-person best-ball score.”
 - “Check the front, back, and total for every player.”
 - “Which holes were birdies?”
+- “Explain the F, S, D, and O marks on this TheGrint card.”
+- “Summarize every stat this card actually supports.”
 - “Transcribe this card and flag anything you cannot read confidently.”
 
 The skill performs arithmetic and interprets visible scorecard information. It
